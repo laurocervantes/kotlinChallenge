@@ -27,6 +27,8 @@ class Main {
 
 
     fun main(args: Array<String>) {
+        
+        // Provide a Long argument between 1 and 1000 ONLY
         numberToString(135)
     }
 

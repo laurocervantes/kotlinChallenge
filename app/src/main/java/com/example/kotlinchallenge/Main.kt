@@ -31,7 +31,7 @@ class Main {
     }
 
 
-    fun numberToString(number: Int): String {
+    fun numberToString(number: Long): String {
         var num = number.toString()
 
         if (num.length == 1) {

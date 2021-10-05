@@ -1093,6 +1093,8 @@ class Main {
                 "998" -> return hundreds[8] + " and " + tens[8] + units[7]
                 "999" -> return hundreds[8] + " and " + tens[8] + units[8]
             }
+        } else {
+            return thousand[0]
         }
     }
 }
